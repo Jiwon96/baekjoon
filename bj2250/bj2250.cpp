@@ -5,7 +5,10 @@
 #include<stack>
 #include<string.h>
 #define MAX 10001
-
+/*
+로직은 거의 맞았다. 하지만, 트리를 어떻게 구현해야 할 지 몰라서 못풀었다.
+여기서는 pair를 배열로 만들어서 트리를 만드는 방법으로 구현했다.
+*/
 using namespace std;
 
 
