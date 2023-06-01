@@ -14,3 +14,6 @@
 * speiclity -
   *  Tree를 만드는 것이므로 Union-Find 알고리즘이 필요하다.
   *  루트가 같은지가 speiclaity
+  *  Prim과 Kruskal의 data struct로 주의깊게 볼 필요 있음.
+     * prim은 노드 기반이기 때문에 vector를 2차원으로 만듬 ex) vector<int> v[N]
+     * 하지만 kruskal은 edge 기반이기 때문에 priority_queue< edge weight, {node1, node2}> pq를 만든 다음에 edge로 정렬을 해서 union_find 응용하면서 트리를 만들어감
